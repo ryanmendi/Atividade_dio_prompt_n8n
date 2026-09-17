@@ -1,0 +1,39 @@
+Atue como um especialista em N8N.
+
+Crie uma automação para organizar automaticamente os pedidos recebidos por um formulário de vendas.
+
+Público:
+Equipe comercial.
+
+Resultado esperado:
+Registrar os pedidos em uma planilha, enviar uma confirmação ao cliente e notificar a equipe comercial sobre cada novo pedido.
+
+Ferramentas envolvidas:
+Google Forms, Google Sheets, Gmail e Slack.
+
+Fluxo:
+
+Receber uma nova resposta do formulário.
+
+Validar os dados enviados pelo cliente.
+
+Verificar se o e-mail informado é válido.
+
+Verificar se o pedido já foi registrado para evitar duplicidade.
+
+Registrar os dados válidos no Google Sheets.
+
+Enviar um e-mail de confirmação ao cliente.
+
+Enviar uma notificação no Slack para a equipe comercial.
+
+Caso os dados sejam inválidos, encaminhar uma notificação para a equipe responsável revisar o cadastro.
+
+Regras:
+Não registrar pedidos sem nome, e-mail ou descrição do pedido. Caso o e-mail seja inválido, não enviar a confirmação ao cliente. Evitar registros duplicados utilizando o e-mail e o identificador do pedido como critérios de validação. O workflow deve tratar erros de integração sem interromper silenciosamente a automação.
+
+Explique quais nós do N8N devem ser utilizados, a função de cada nó, as conexões entre eles, as condições de validação e a lógica de tratamento de erros.
+
+Apresente também uma estrutura visual do workflow, indicando claramente o início, as decisões, os caminhos de sucesso e de erro.
+
+Sempre que possível, sugira configurações práticas para cada nó e explique quais credenciais ou parâmetros precisam ser configurados no N8N.
